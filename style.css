@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+ font-size: 35px;
+}
 
 .peter{
     color: #FA6F5A;
@@ -60,14 +63,34 @@ h1{
     padding-bottom: 20px;
     box-shadow: 10px 10px 40px grey;
     border-radius: 20px;
+   
 }
 .Experiences {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left center;
     margin-top: 50px;
     
 }
-.exp-1{
+.exp-1{ 
     margin-left: 25px;
+}
+.border-color1{
+    border-left: 5px solid #FA745D;
+}
+.border-color2{
+       border-left: 5px solid;
+       border-image: linear-gradient(blue,cyan);
+       border-image-slice: 1;
+      
+}
+footer p{
+    text-align: center;
+    color: gray;
+    
+    
+
+}
+footer{
+    margin-top: 180px;
 }
