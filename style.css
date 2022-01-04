@@ -3,12 +3,13 @@ body{
     margin:0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
+
 .peter{
     color: #FA6F5A;
 }
-section{
+.flexible-tab{
     display: flex;
     margin-bottom: 60px;
   
@@ -27,10 +28,11 @@ section{
 }
 .half-width a{
     text-decoration: none;
-  background-color:orange;
+    background-color:orange;
     padding:8px;
     color:black;
     border-radius: 5px;
+    
 }
 .half-width a:hover{
     background-color: tomato;
@@ -46,6 +48,26 @@ section{
 }
 .dream-middle{
     background-image: url(images/dream-bg.png);
-    background-position: right;
+    background-position: right bottom;
     background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.Experiences-bar{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 2%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+}
+.Experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-top: 50px;
+    
+}
+.exp-1{
+    margin-left: 25px;
 }
